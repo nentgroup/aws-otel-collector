@@ -53,7 +53,7 @@ jobs:
             --platform linux/amd64,linux/arm64 \
             --build-arg BUILDMODE=copy \
             --push \
-            -t 51980963131.dkr.ecr.eu-west-1.amazonaws.com/awscollector:${VERSION} \
+            -t 551980963131.dkr.ecr.eu-west-1.amazonaws.com/aws-otel-collector:${VERSION} \
             -f ./cmd/awscollector/Dockerfile .
 
       # - name: Extract metadata for Docker
